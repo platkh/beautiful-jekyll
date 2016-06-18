@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: memberri untuk menerima
+subtitle: memberi untuk menerima
 ---
 
 Biasa dipanggil ivan, selalu memiliki mimpi untuk terus menjadi pribadi yg lebih baik.
