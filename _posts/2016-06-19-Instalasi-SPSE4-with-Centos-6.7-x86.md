@@ -8,6 +8,7 @@ spse4 latihan tutorial install by alphaone – lpse kab. barito selatan
 pengantar :
 spse4 berjalan berdampingan dengan spse36sp2 (yang merupakan versi upgrade dari spse36) dan membutuhkan alat dan bahan sbb :
 centos 6.7 x86_64 (fresh instal, bisa di ssh dan sdh terhubung ke jaringan)
+
 ~~~
 play 1.3.3
 epns-lat-36sp2
@@ -19,7 +20,9 @@ jdk-8u60-linux-x86.tar.gzip
 jce_policy-8.zip
 epns_lat-spse4.sql
 ~~~
+
 copikan paket2 tersebut ke /usr/local/src/
+
 ~~~
 cd /usr/local/src/
 yum update
@@ -44,7 +47,9 @@ mkdir /home/file
 mkdir /home/file/file_latihan
 mkdir /home/file/file_prod
 ~~~
+
 persiapan postgres, apache dkk :
+
 ~~~
 #/etc/init.d/postgresql initdb (untuk inisiasi directory database)
 #/etc/init.d/postgresql start (restart aplikasi database)
@@ -73,7 +78,9 @@ persiapan postgres, apache dkk :
 #cp -vr UnlimitedJCEPolicyJDK8/* jdk1.8.0/jre/lib/security (copy file java policy ke directory java)
 overwrite pilih y –> enter
 ~~~
+
 Konfigurasi Database dan Restore Database
+
 ~~~
 su postgres [ENTER] ——-> masuk ke user postgres
 psql [ENTER] ———-> masuk ke dalam database
@@ -83,7 +90,9 @@ createdb -U postgres -O epns epns_latihan ; [ENTER] ————> membuat nama d
 psql -U postgres -d epns_latihan -f epns_lat-spse4.sql [ENTER]
 exit —–> keluar dari user postgres
 ~~~
+
 Rubah Konfigurasi database :
+
 ~~~
 # nano /var/lib/pgsql/data/pg_hba.conf
 kita rubah ident menjadi trust 
@@ -203,7 +212,7 @@ thanks san sifu Agus NR Barsel
 
 
 Ref : 
-```javascript
+```
 kloxo.web.id
 ```
 
