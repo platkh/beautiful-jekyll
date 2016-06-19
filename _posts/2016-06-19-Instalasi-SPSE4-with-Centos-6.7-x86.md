@@ -106,7 +106,9 @@ Ctrl – X + Y + Enter
 restart service database :
 /etc/init.d/postgresql restart
 ~~~
+
 Konfigurasi Apache / HTTPD
+
 ~~~
 #hostname
 appservlpse
@@ -114,6 +116,7 @@ appservlpse
 tambahkan 127.0.0.1 appservlpse
 Ctrl X – Y + enter
 ~~~
+
 ~~~
 nano /etc/httpd/conf/httpd.conf
 beri tanda coment (#)
@@ -123,13 +126,16 @@ rubah epns-prod dengan inisial 35 menjadi spse-lat-4
 Alias /latihan /home/appserv/epns-lat-36sp2
 Alias /eproc4lat /home/appserv/spse-lat-4
 ~~~
+
 ~~~
 AllowOverride None
 Order deny,allow
 deny from all
 ~~~
+
 beri tanda # untuk baris yang menggunakan inisial JK
 misal 
+
 ~~~
 #JkWorkersFile /etc/httpd/workers.properties
 #JkLogFile /var/log/httpd/mod_jk.log
@@ -139,7 +145,9 @@ misal
 #JkMount /eproc* worker2
 #JkMountCopy All
 ~~~
+
 kemudian tambahakan/input comand diatas baris JKWorkers 
+
 ~~~
 ProxyRequests Off
 ProxyVia Off
@@ -155,7 +163,9 @@ tambahkan baris paling bawah :
 Servername appservlpse
 Ctrl -X + Y + Enter
 ~~~
+
 unzip play-1.3.3-prod.zip
+
 ~~~
 nano /home/appserv/epns-lat-36sp2/spse3
 sesuaikan :
@@ -167,6 +177,7 @@ nano /home/appserv/epns-lat-36sp2/webapp/WEB-INF/classes/application.properties
 sesuaikan :
 jdbc.url=jdbc:postgresql://localhost/epns_latihan
 ~~~
+
 ~~~
 nano /home/appserv/spse-lat-4/spse4
 sesuaikan :
@@ -179,11 +190,15 @@ nano /home/appserv/spse-lat-4/conf/application.conf
 sesuaikan :
 http.port=9090
 spse3.url=http://ip-server/latihan
-==================================
+~~~
+
+~~~
 chmod 755 /home/appserv/epns-lat-36sp2/spse3
 chmod 755 /home/appserv/spse-lat-4/spse4
 ~~~
+
 restart apache :
+
 ~~~
 /etc/init.d/httpd restart
 bila failed ===> coba reboot untuk mendisable SElinux dan ulangi start httpd
@@ -191,7 +206,9 @@ jalankan spse36sp2 :
 cd /home/appserv/epns-lat-36sp2/
 ./spse3 start
 ~~~
+
 jalankan spse4latihan :
+
 ~~~
 cd /home/appserv/spse-4-lat/
 ./spse4 start
@@ -206,6 +223,7 @@ ctrl + x + s
 ~~~
 
 #reboot server..enjoy!
+
 ~~~
 thanks san sifu Agus NR Barsel
 ~~~
