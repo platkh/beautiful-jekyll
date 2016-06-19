@@ -1,3 +1,8 @@
+---
+layout: post
+title: Instalasi SPSE4 with Centos 6.7 x86
+subtitle: Each post also has a subtitle
+---
 spse4 latihan tutorial install by alphaone – lpse kab. barito selatan
 
 pengantar :
