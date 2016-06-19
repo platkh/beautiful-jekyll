@@ -224,9 +224,9 @@ ctrl + x + s
 
 #reboot server..enjoy!
 
-~~~
-thanks san sifu Agus NR Barsel
-~~~
+
+#thanks san sifu Agus NR Barsel
+
 
 
 Ref : 
