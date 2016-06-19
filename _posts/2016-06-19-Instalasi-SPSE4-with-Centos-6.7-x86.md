@@ -222,10 +222,10 @@ rm -rf /home/appserv/spse-4-lat/server.pid
 ctrl + x + s
 ~~~
 
-#reboot server..enjoy!
+*reboot server..enjoy!*
 
 
-#thanks san sifu Agus NR Barsel
+*thanks san sifu Agus NR Barsel*
 
 
 
