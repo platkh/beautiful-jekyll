@@ -34,12 +34,21 @@ yum update
 yum -y install psmisc httpd-devel gcc-c++ pcre-devel libxml2-devel 
 httpd postgresql-server make mod_security mod_evasive unzip rsync 
 lynx elinks vim tcptraceroute nmap htop lshw iperf httperf pktstat
+
+~~~
 default port dan folder, redirect match yang akan digunakan :
 spse3.6 sp2 latihan spse4 latihan
+~~~
+
+~~~
 /home/appserv/epns-lat-36sp2 /home/appserv/spse-lat-4
 8080 9090
 /latihan /eproc4lat
+~~~
+
 instalasi dimulai :
+
+~~~
 mkdir /home/appserv
 mv epns-lat-36sp2 /home/appserv/
 mv spse-lat-4 /home/appserv/
@@ -72,7 +81,7 @@ persiapan postgres, apache dkk :
 #/etc/init.d/iptables stop
 #chkconfig iptables off
 #sed -i “s/enforcing/disabled/g” /etc/selinux/config
-#tar -xzvf jdk-8u60-linux-x64.tar.gzip (extrac file java)
+#tar -xzvf jdk-8u60-linux-x86.tar.gzip (extrac file java)
 #mv jdk1.8.0_60 jdk1.8.0
 #unzip jce_policy-8.zip (extrac java policy)
 #cp -vr UnlimitedJCEPolicyJDK8/* jdk1.8.0/jre/lib/security (copy file java policy ke directory java)
