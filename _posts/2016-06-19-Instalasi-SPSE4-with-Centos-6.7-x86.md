@@ -34,11 +34,10 @@ yum update
 yum -y install psmisc httpd-devel gcc-c++ pcre-devel libxml2-devel 
 httpd postgresql-server make mod_security mod_evasive unzip rsync 
 lynx elinks vim tcptraceroute nmap htop lshw iperf httperf pktstat
-
 ~~~
+
 default port dan folder, redirect match yang akan digunakan :
 spse3.6 sp2 latihan spse4 latihan
-~~~
 
 ~~~
 /home/appserv/epns-lat-36sp2 /home/appserv/spse-lat-4
