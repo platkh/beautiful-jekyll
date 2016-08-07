@@ -11,17 +11,17 @@ Error:    Cannot establish FTP connection to an SFTP server. Please select prope
 Error:    Critical error: Could not connect to server
 ~~~
 
-gambar: "/img/Problem1.jpeg"
+![img](/img/Problem1.jpeg)
 
 Ketimbang lupa mending masukin dimari, brangkatt..
 Pada menu filezilla buka **File -> Site Manager**
 
-gambar: "/img/Problem2.jpeg"
+![img](/img/Problem2.jpeg)
 
 Pada **Site Manager**,klik **New Site** (terserah mo kasih nama apa) ke General tab kemudian pilih **SFTP - SSH File Transfer Protocol**
 Isikan host server, port number, user dan password.
 
-gambar: "/img/Problem3.png"
+![img](/img/Problem3.png)
 
 ehemmm..mudahan sukses
 
