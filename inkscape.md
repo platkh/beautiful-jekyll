@@ -67,4 +67,4 @@ subtitle: memberi untuk menerima
 
 ![img](/img/16.jpg)
 
-##bersambung..
+## bersambung..
