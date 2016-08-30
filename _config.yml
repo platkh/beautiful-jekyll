@@ -21,7 +21,7 @@ description: A virtual proof that name is awesome!
 
 # --- Navigation bar options --- #
 
-# List of links in the navigation bar
+List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
   Inkscape Collection : "inkscape"
