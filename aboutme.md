@@ -6,6 +6,7 @@ subtitle: memberi untuk menerima
 
 Biasa dipanggil ivan, selalu memiliki mimpi untuk terus menjadi pribadi yg lebih baik.
 ![img](/img/vank.png)
+
 - Memancing merupakan kesukaan yg susah tuk dihentikan
 - kadang suka nyanyi juga walau dalam hati :v
 
