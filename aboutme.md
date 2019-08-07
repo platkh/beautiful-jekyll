@@ -15,4 +15,4 @@ What else do you need?
 
 ### ceritaku
 
-Kadang untuk melakukan hobi perlu semangat lebih, menyisihkan hal yg lebih penting..Bahagiaku
+Kadang untuk melakukan hobi perlu semangat lebih, rela mengesampingkan hal lain..Bahagiaku
